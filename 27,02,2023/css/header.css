@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+}
+section{
+    background-image: url(/img/backgroung.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+   
+}
+
+.header-section{
+    /* width: 177px; */
+    height: 173px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 19px;
+    margin-bottom: 22px;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    width: 177px;
+}
+.log-in{
+    width: 71px;
+    height: 17px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item{
+    width: 92px;
+    height: 39px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-item:nth-child(2n+2){
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    
+}
+.sign-up{
+
+   font-family: 'Montserrat';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 14px;
+
+   
+}
+
+
+.logo{
+    width: 207px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+
+    color: #FFFFFF;
+
+
+}
+
+
+.title{
+    width: 306.03px;
+    height: 75px;
+    font-family: 'Montserrat';
+    font-style: normal; 
+    color: #FFFFFF;
+    text-align: center;
+    
+    font-size: 30.041px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.description-text{
+    width: 247.03px;
+    height: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18.0246px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 17px;
+
+}
+
+.btn-container{
+    width: 282px;
+    height: 43px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+    border:none;
+    border-radius: 25px;
+    
+    background: #FF4E50;
+
+
+
+}

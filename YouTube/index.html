@@ -1,0 +1,285 @@
+<!DOCTYPE html >
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>YouTube</title>
+
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
+         integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"
+         integrity="sha512-9GacT4119eY3AcosfWtHMsT5JyZudrexyEVzTBWV3viP/YfB9e2pEy3N7WXL3SV6ASXpTU0vzzSxsbfsuUH4sQ=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+
+      <link
+         rel="shortcut icon"
+         href="./assets/favicon.png"
+         type="image/x-icon"
+      />
+   </head>
+   <body class="bg-dark">
+      <nav class="navbar navbar-dark bg-dark sticky-top">
+         <div class="container-fluid">
+            <div>
+               <button
+                  class="navbar-toggler me-2 border-0"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#leftBurger"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <a href="#" class="navbar-brand">
+                  <img src="./assets/logo.svg" alt="" />
+               </a>
+            </div>
+            <form 
+               role="search"
+               action="https://www.youtube.com/results" 
+               class="d-flex"
+               method="get">
+                  <input 
+                     type="search"
+                     name="search_query" 
+                     style="min-width: 30vw;"
+                     class="form-control me-2 bg-dark text-white rounded-5"
+                     placeholder="Search"
+                     aria-label="Search">
+                     <button class="btn btn-dark" >Search</button>
+            </form>
+            <button class=" btn btn-outline-primary">SIGN UP</button>
+            <div 
+               class="offcanvas offcanvas-start text-bg-dark"
+               tabindex="-1" 
+               id="leftBurger">
+
+               <div class="offcanvas-header">
+                  <div>
+                     <button
+                  class="navbar-toggler me-2 border-0"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#leftBurger"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <a href="#" class="navbar-brand">
+                  <img src="./assets/logo.svg" alt="" />
+               </a>
+                  </div>
+               </div>
+
+               <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 border-bottom">
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Home</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Shorts</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Subscriptions</a>
+                     </li>
+                  </ul>
+                  
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 border-bottom">
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Library</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Story </a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Watch later</a>
+                     </li>
+                     <li class="nav-item"> 
+                        <a href="" class="nav-link text-white"> Liked</a>
+                     </li>
+                     <li class="nav-item"> 
+                        Expand
+                     </li>
+                  </ul>
+
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 border-bottom">
+                     <li class="nav-item"> 
+                        <p>Subscriptions</p>
+                     </li>
+                   
+                     </ul>
+
+               </div>
+            </div>
+         </div>
+
+      </nav>
+      <main class="container-fluid bg-dark">
+         <div class="row row-cols-1 row-cols-2-sm-2 row-cols row-cols-md-4">
+           
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=rTPsSmLOJcQ" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/1.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava1.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">speed up tiktok audios that i would die for ✨ kenkills </h6>
+                        <p class="text-muted m-0">kenkills</p>
+                        <p class="text-muted m-0">23 thousand vievs • 7 months ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=bOSmzJ0vmt4" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/2.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava2.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">xannex - gloomy bliss (prod by jeezy.mp4)</h6>
+                        <p class="text-muted m-0">xannextheweirdo</p>
+                        <p class="text-muted m-0">92 thousand vievs • 3 months ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=tEnCoocmPQM" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/3.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava3.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">Halsey - Sorry</h6>
+                        <p class="text-muted m-0">Halsey</p>
+                        <p class="text-muted m-0">136 million vievs • 5 years ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=YVkUvmDQ3HY\" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/4.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava4.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">Eminem - Without Me (Official Music Video)</h6>
+                        <p class="text-muted m-0">EminemMusic</p>
+                        <p class="text-muted m-0">1,6 billion vievs • 13 years ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=tuGzajwE7ok" class="text-decoration-none">
+                  <div class="card text-bg-dark border-0 m-2">
+                     <img src="./assets/5.webp" alt="" height="200" class="card-img-top rounded-2">
+                     <div class="card-body row">
+                        <div class="col-2">
+                           <img src="./assets/ava5.jpg" alt="" class="rounded-5" height="40" width="40">
+                        </div>
+                        <div class="col-10">
+                        
+                           <h6 class="card-title">(English Cover) Sister's ∞ mercY【Ying】</h6> 
+                           <p class="text-muted m-0">Ying - 莺</p>
+                           <p class="text-muted m-0">23 thousand vievs • 7 months ago</p>
+
+                        </div>
+                     </div>
+                  </div>
+               </a>  
+               </div>
+               
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=mWQJTWL2Epo" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/6.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava6.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">Frozen The Remakeboot</h6>
+                        <p class="text-muted m-0">Eder KFCard</p>
+                        <p class="text-muted m-0">19 million vievs • 7 months ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=g7OMVQwOA5Y" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/7.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava7.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">I took my duck to Toys R Us</h6>
+                        <p class="text-muted m-0">Seducktive</p>
+                        <p class="text-muted m-0">2,5 million vievs • 5 months ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            <div class="col">
+               <a href="https://www.youtube.com/watch?v=pL0icUnUJOg" class="text-decoration-none">
+               <div class="card text-bg-dark border-0 m-2">
+                  <img src="./assets/8.webp" alt="" height="200" class="card-img-top rounded-2">
+                  <div class="card-body row">
+                     <div class="col-2">
+                        <img src="./assets/ava8.jpg" alt="" class="rounded-5" height="40" width="40">
+                     </div>
+                     <div class="col-10">
+                        <h6 class="card-title">Elk Attack Compilation</h6>
+                        <p class="text-muted m-0">Funny Memes A7</p>
+                        <p class="text-muted m-0">7,9 thousand vievs • 1 year ago</p>
+
+                     </div>
+                  </div>
+               </div>
+               </a>
+            </div>
+
+            
+         </div>
+
+      </main>
+   </body>
+</html>

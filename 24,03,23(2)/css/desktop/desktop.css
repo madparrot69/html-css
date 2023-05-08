@@ -1,0 +1,26 @@
+@media (min-width: 1000px) {
+    .cards{
+    
+        flex-direction: row;
+        width: 1146px;
+        height: 128px;
+
+
+
+    }
+
+    .categories-title{
+        text-align: left;
+        padding-left: 149px;
+    }
+
+    .vacansies-cards{
+        width: 1146px;
+        height: 700px;
+    }
+    .vacansies-card{
+        flex-direction: row;
+        width: 1146px;
+        height: 160px;
+    }
+}

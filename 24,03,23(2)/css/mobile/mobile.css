@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cards{
+    height: 918px;
+    width: 166px;
+    margin: 40px auto 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-item{
+
+    width: 166px;
+    height: 128px;
+    background: #F2F3F6;
+    border-radius: 10px;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item i{
+    margin-bottom: 15px;
+}
+
+
+.categories-title{
+    padding-top: 50px;
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #111238;
+    
+}
+
+.cards :hover  {
+    color: #FFFFFF;
+    background: #1A75E8;
+}
+
+/* SECTION JOBS */
+
+.vacansies-cards{
+    width: 290px;
+    height: 1824px; 
+    margin: 40px auto 30px ;
+
+
+}
+
+
+.vacansies-card{
+    width: 290px;
+    height: 441px;
+    border: 1px solid #C5C9D5;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 0 30px;
+
+
+}
+
+.vacansies-title{
+    font-family: 'Fira Sans';
+    color: #111238;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.vacancie-title{
+    width: 173px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobs-title{
+    font-family: 'Fira Sans';
+    color: #111238;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.vacansies-description{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #111238;
+
+}
+
+.btn-coast{
+    width: 113px;
+    height: 39px;
+    background: #1A75E8;
+    border-radius: 5px ;
+
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.a{
+    color: #1A75E8;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 14px;
+
+    text-decoration: none;
+}
+
+.vacancie-stack{
+    color: #B2B2B2;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 14px;
+
+    width: 183px;
+    height: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.vacancie-stack .stack{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+}
+.vacancie-stack p{
+    text-align: center;
+}
+
+.stack li{
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.li1{
+    width: 56px;
+    height: 27px;
+}
+.li2{
+    width: 49px;
+    height: 27px;
+}
+.li3{
+    width: 58px;
+    height: 27px;
+}

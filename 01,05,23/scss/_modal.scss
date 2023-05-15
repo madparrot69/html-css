@@ -1,0 +1,56 @@
+.modal{
+    border: 1px solid black;
+
+    
+    width: 990px;
+    height: 669px;
+    background-color: #fff;
+    border-radius: 50px;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    @include flexCenter();
+
+
+
+    img{
+        width: 617px;
+        height: 448px;
+        position: absolute;
+        top: 145px;
+        right: 0;
+       
+    }
+
+    button{
+        position: absolute;
+        width: 207px;
+        height: 57px;
+        left: 83px;
+        bottom: 93px;
+        background: #B47B48;
+        border-radius: 17px;               
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        // width: ;
+    }
+
+    input{
+        width: 412px;
+        height: 72px;
+        background: #F5F5F5;       
+    }
+
+    
+
+
+
+
+
+}

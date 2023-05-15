@@ -1,0 +1,150 @@
+body {
+    font-family: "Inter";
+    color: #ffffff;
+    background-image: linear-gradient(to right, #19191a, #1c1c1d, #202020, #232324, #272727);
+    
+ }
+ 
+ .header {
+    padding-top: 50px;
+    padding-left: 146px;
+    background: url(../img/photo_2022-06-05_13-14-26\ 1.png);
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-family: Inter;
+        font-size: 70px;
+        font-weight: 200;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    p{
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+    nav {
+       ul {
+          display: flex;
+          list-style: none;
+          gap: 15px;
+       }
+ 
+       li {
+          font-weight: 200;
+          font-size: 24px;
+          line-height: 29px;
+       }
+    }
+    h1 {
+       font-weight: 200;
+       font-size: 70px;
+       line-height: 85px;
+       width: 561px;
+       padding-top: 71px;
+ 
+       & + p {
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 25px;
+          width: 570px;
+          margin: 22px 0 49px;
+       }
+    }
+ 
+    .btn {
+       background-color: #b47b48;
+    }
+ 
+    & .btn-header {
+       padding: 16px 34px 16px 34px;
+       border-radius: 17px;
+       border: none ;
+       
+    }
+ 
+    & .btn {
+        
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+
+        &:hover{ 
+            cursor: pointer;
+        }
+        
+    }
+ }
+
+ .cards,
+ .cards *{
+    box-sizing: border-box;
+
+ }
+ .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 225px;
+ }
+
+
+ .card {
+    height: 225px;
+    width: 310px;
+    border-radius: 0px;
+    
+    background-image: linear-gradient(to right, #19191a, #1c1c1d, #202020, #232324, #272727);    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    margin-top: 125px;
+    text-align: center; 
+    
+    div{
+        text-align: center;
+        width: 100%;
+    }
+    box-shadow: -8px 3px 5px 0px rgba(0,0,0,0.75);
+
+    p{
+        @include textStyle (200, 24px, 29px);
+        padding-bottom: 13px;
+    }
+    h5{
+        @include textStyle (500, 16px, 19px);
+    }
+
+    button{
+        
+        @include textStyle(900, 16px, 19px)
+        
+        border:none;
+        
+        background-color: #C85312;
+        color: #ffffff;
+
+        padding: 10px 22px 5px;
+        &:hover{ 
+            cursor: pointer;
+        }
+    }
+    
+    &:hover{
+        background-image: linear-gradient(to right, #181208, #44341c, #775a2d, #af823f, #ebad51);
+        box-shadow: -7px 7px 5px 0px rgba(0,0,0,0.75);
+    }
+}

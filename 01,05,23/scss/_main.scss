@@ -6,6 +6,7 @@ body {
  }
  
  .header {
+    padding-bottom: 36px;
     padding-top: 50px;
     padding-left: 146px;
     background: url(../img/photo_2022-06-05_13-14-26\ 1.png);
@@ -13,23 +14,16 @@ body {
     background-size: cover;
 
     h1{
-        font-family: Inter;
-        font-size: 70px;
-        font-weight: 200;
-        line-height: 85px;
+        @include textStyle (200, 70px, 85px);
         letter-spacing: 0em;
         text-align: left;
 
     }
     p{
-        font-family: Inter;
-        font-size: 21px;
-        font-weight: 300;
-        line-height: 25px;
+        @include textStyle (300, 21px, 25px);
         letter-spacing: 0em;
         text-align: left;
     }
-
 
     nav {
        ul {
@@ -39,22 +33,16 @@ body {
        }
  
        li {
-          font-weight: 200;
-          font-size: 24px;
-          line-height: 29px;
+        @include textStyle (200, 24px, 29px);
        }
     }
     h1 {
-       font-weight: 200;
-       font-size: 70px;
-       line-height: 85px;
+        @include textStyle (200, 70px, 85px);
        width: 561px;
        padding-top: 71px;
  
        & + p {
-          font-weight: 300;
-          font-size: 21px;
-          line-height: 25px;
+        @include textStyle (300, 21px, 25px);
           width: 570px;
           margin: 22px 0 49px;
        }
@@ -73,10 +61,7 @@ body {
  
     & .btn {
         
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 300;
-        line-height: 29px;
+        @include textStyle (300, 24px, 29px);
         letter-spacing: 0em;
         text-align: left;
         color: #ffffff;
@@ -88,8 +73,7 @@ body {
     }
  }
 
- .cards,
- .cards *{
+ .cards, .cards *{
     box-sizing: border-box;
 
  }
@@ -98,6 +82,8 @@ body {
     justify-content: space-between;
     width: 80%;
     height: 225px;
+    margin-top: 125px;
+    margin-bottom: 36px;
  }
 
 
@@ -111,7 +97,7 @@ body {
     align-items: center;
     flex-direction: row;
     
-    margin-top: 125px;
+    // margin-top: 125px;
     text-align: center; 
     
     div{
@@ -130,7 +116,7 @@ body {
 
     button{
         
-        @include textStyle(900, 16px, 19px)
+        @include textStyle(900, 16px, 19px);
         
         border:none;
         

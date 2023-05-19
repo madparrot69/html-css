@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import '/css/fonts.css';
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -97,6 +97,7 @@ body {
 }
 
 .header {
+  padding-bottom: 36px;
   padding-top: 50px;
   padding-left: 146px;
   background: url(../img/photo_2022-06-05_13-14-26\ 1.png);
@@ -105,16 +106,18 @@ body {
 }
 .header h1 {
   font-family: Inter;
-  font-size: 70px;
+  font-style: normal;
   font-weight: 200;
+  font-size: 70px;
   line-height: 85px;
   letter-spacing: 0em;
   text-align: left;
 }
 .header p {
   font-family: Inter;
-  font-size: 21px;
+  font-style: normal;
   font-weight: 300;
+  font-size: 21px;
   line-height: 25px;
   letter-spacing: 0em;
   text-align: left;
@@ -125,11 +128,15 @@ body {
   gap: 15px;
 }
 .header nav li {
+  font-family: Inter;
+  font-style: normal;
   font-weight: 200;
   font-size: 24px;
   line-height: 29px;
 }
 .header h1 {
+  font-family: Inter;
+  font-style: normal;
   font-weight: 200;
   font-size: 70px;
   line-height: 85px;
@@ -137,6 +144,8 @@ body {
   padding-top: 71px;
 }
 .header h1 + p {
+  font-family: Inter;
+  font-style: normal;
   font-weight: 300;
   font-size: 21px;
   line-height: 25px;
@@ -153,8 +162,9 @@ body {
 }
 .header .btn {
   font-family: Inter;
-  font-size: 24px;
+  font-style: normal;
   font-weight: 300;
+  font-size: 24px;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
@@ -164,8 +174,7 @@ body {
   cursor: pointer;
 }
 
-.cards,
-.cards * {
+.cards, .cards * {
   box-sizing: border-box;
 }
 
@@ -174,6 +183,8 @@ body {
   justify-content: space-between;
   width: 80%;
   height: 225px;
+  margin-top: 125px;
+  margin-bottom: 36px;
 }
 
 .card {
@@ -184,7 +195,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-top: 125px;
   text-align: center;
   box-shadow: -8px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
@@ -208,17 +218,15 @@ body {
   line-height: 19px;
 }
 .card button {
-  margin-top: 34px;
-  height: 34px;
-  width: 79px;
-  left: 790px;
-  top: 909px;
-  border-radius: 0px;
-  border: none;
-  background-color: #C85312;
+  font-family: Inter;
+  font-style: normal;
   font-weight: 900;
   font-size: 16px;
+  line-height: 19px;
+  border: none;
+  background-color: #C85312;
   color: #ffffff;
+  padding: 10px 22px 5px;
 }
 .card button:hover {
   cursor: pointer;
@@ -226,4 +234,83 @@ body {
 .card:hover {
   background-image: linear-gradient(to right, #181208, #44341c, #775a2d, #af823f, #ebad51);
   box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+main {
+  height: 775px;
+  background: #202023;
+}
+main h1 {
+  text-align: center;
+  height: 77px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 77px;
+  padding: 20px;
+}
+main p {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+}
+main button {
+  background: #B47B48;
+  border-radius: 17px;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  color: #FFFFFF;
+  padding: 5px 30px 5px 30px;
+  margin-left: 98px;
+  margin-top: 9px;
+  margin-bottom: 7px;
+}
+main .menu {
+  width: 328px;
+  height: 250px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+main .menu img {
+  position: absolute;
+}
+main .M:nth-of-type(2) img {
+  top: -25px;
+}
+main .M:nth-of-type(1) img {
+  top: 20px;
+}
+main .M:nth-of-type(3) img {
+  top: -20px;
+}
+main .M:nth-of-type(4) img {
+  top: -2px;
+}
+main .Menu {
+  display: flex;
+  width: 873px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  height: 853px;
+  width: auto;
+  background-image: url(/img/Quality_our_bekary/QOB-bg.png);
 }

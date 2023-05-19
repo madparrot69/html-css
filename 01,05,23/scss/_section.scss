@@ -1,6 +1,65 @@
 section{
     height: 853px;
     width: auto;
-    background-image: url(/img/Quality_our_bekary/QOB-bg.png);
     
+    position: relative;
+    
+    background-image: url(/img/Quality_our_bekary/QOB-bg.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    
+    padding-top:46px;
+
+    h1{
+        @include textStyle(400, 64px, 75px);
+        font-family: 'Italiana';
+        text-align: center;
+    }
+
+    .recipe{
+        
+
+        ol{
+            background: #787878;          
+            width: 227.08px;
+            height:175.48px;    
+            padding-left: 30px;   
+            box-shadow: -1px 3px 29px 7px rgba(0,0,0,0.65);
+            padding-top: 26px;
+        
+  
+            
+            li{
+                @include textStyle(500, 20px, 29px);
+                font-family: 'Inter';
+                list-style-type: decimal;
+                
+                
+                
+    
+            }
+        } 
+
+        &:nth-of-type(1){
+            position: absolute;
+            left: 170px;
+            top: 104px;       
+        }
+    
+        &:nth-of-type(2){
+          position: absolute;
+          left: 549px;
+          top: 249px;     
+        }
+    
+        &:nth-of-type(3){
+            position: absolute;
+            left: 905px;
+            top: 288px;      
+        }
+       
+    
+
+       
+    }
 }

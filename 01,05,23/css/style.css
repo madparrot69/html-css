@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap");
 @import '/css/fonts.css';
 html, body, div, span, applet, object, iframe,
@@ -101,7 +101,7 @@ body {
   padding-bottom: 36px;
   padding-top: 50px;
   padding-left: 146px;
-  background: url(../img/photo_2022-06-05_13-14-26\ 1.png);
+  background: url(../img/bg/photo_2022-06-05_13-14-26\ 1.png);
   background-position: center;
   background-size: cover;
 }
@@ -239,7 +239,7 @@ body {
 
 main {
   height: 775px;
-  background-image: linear-gradient(to right, #19191a, #1c1c1d, #202020, #232324, #272727);
+  background-image: url(/img/bg/bgdhit.png);
 }
 main h1 {
   text-align: center;
@@ -317,22 +317,23 @@ section {
   background-image: url(/img/Quality_our_bekary/QOB-bg.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-top: 46px;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
 }
 section h1 {
   font-family: Inter;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 64px;
   line-height: 75px;
-  font-family: "Italiana";
   text-align: center;
+  font-family: "Italiana";
 }
 section .recipe ol {
   background: #787878;
-  width: 227.08px;
+  width: 230px;
   height: 175.48px;
-  padding-left: 30px;
+  padding-left: 43px;
   box-shadow: -1px 3px 29px 7px rgba(0, 0, 0, 0.65);
   padding-top: 26px;
 }
@@ -342,7 +343,6 @@ section .recipe ol li {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
-  font-family: "Inter";
   list-style-type: decimal;
 }
 section .recipe:nth-of-type(1) {

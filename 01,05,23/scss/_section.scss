@@ -4,16 +4,19 @@ section{
     
     position: relative;
     
+    
     background-image: url(/img/Quality_our_bekary/QOB-bg.png);
     background-position:bottom;
     background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
     
-    padding-top:46px;
+    // padding-top:46px;
 
     h1{
-        @include textStyle(400, 64px, 75px);
-        font-family: 'Italiana';
+        @include textStyle(100, 64px, 75px);
         text-align: center;
+        font-family: 'Italiana';
     }
 
     .recipe{
@@ -21,9 +24,9 @@ section{
 
         ol{
             background: #787878;          
-            width: 227.08px;
+            width: 230px;
             height:175.48px;    
-            padding-left: 30px;   
+            padding-left: 43px;   
             box-shadow: -1px 3px 29px 7px rgba(0,0,0,0.65);
             padding-top: 26px;
         
@@ -31,7 +34,6 @@ section{
             
             li{
                 @include textStyle(500, 20px, 29px);
-                font-family: 'Inter';
                 list-style-type: decimal;
                 
                 
@@ -63,3 +65,4 @@ section{
        
     }
 }
+

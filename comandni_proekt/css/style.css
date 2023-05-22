@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,4 +50,72 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+section {
+  background-image: url(/img/mobile/bg-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section h1 {
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
+  text-align: center;
+  padding-top: 26px;
+  margin-bottom: 60px;
+}
+section div {
+  color: #ffffff;
+  margin-left: 28px;
+}
+section div:nth-last-of-type(2) {
+  margin-bottom: 55px;
+}
+section div:nth-last-of-type(1) {
+  margin-bottom: 50px;
+}
+section div h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+}
+section div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  padding-top: 13px;
+}
+section div p span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  font-family: Rubik;
+  padding-left: 16px;
+}
+section button {
+  width: 184px;
+  height: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #D80808;
+  border-radius: 27px;
+  border: none;
+  margin-left: 92px;
+  margin-bottom: 127px;
 }

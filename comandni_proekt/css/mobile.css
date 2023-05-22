@@ -1,0 +1,7 @@
+section {
+  background-image: url(/img/mobile/bg-section.png);
+}
+section h1 {
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+}

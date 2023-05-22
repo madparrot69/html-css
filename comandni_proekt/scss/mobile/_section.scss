@@ -2,6 +2,7 @@ section {
     background-image: url(/img/mobile/bg-section.png);
     background-repeat:no-repeat;
     background-size: cover;
+    padding-bottom: 127px;
     
     h1{
         color: #E4CFCF;
@@ -17,7 +18,10 @@ section {
     div{
         color: #ffffff;
         margin-left: 28px;
-        
+        img{
+            width: 311px;
+            height: 192px;        
+        }
         &:nth-last-of-type(2){
             margin-bottom: 55px;
         }
@@ -28,7 +32,7 @@ section {
         
         h6{
             @include textStyle (900, 14px, 16px);
-        }
+            }
         
         p{
             @include textStyle (400, 13px, 15px); 
@@ -45,6 +49,8 @@ section {
    button{
     width: 184px;
     height: 64px;
+    
+
 
     @include textStyle (900, 17px, 20px);
     color: #ffffff;
@@ -52,8 +58,9 @@ section {
     background: #D80808;
     border-radius: 27px;
     border: none;
-
+    
     margin-left: 92px;
-    margin-bottom: 127px;
+    padding:0;
+    
    }     
 }

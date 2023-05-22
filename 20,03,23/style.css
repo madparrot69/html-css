@@ -22,7 +22,11 @@ ul{
     width: auto;
 
 }
-
+.subitem:hover {
+    position: relative;
+    top: -220px ;
+    left: 150px;
+}
 .subitem {
     position: absolute;
     left: 113px;
@@ -51,3 +55,24 @@ ul{
 .item2:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
+.li1{
+    padding-top: 30px;
+    padding-left: 10px;
+    
+}
+
+li{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkorchid;
+}
+
+

@@ -52,14 +52,37 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 section {
   background-image: url(/img/mobile/bg-section.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 127px;
 }
+section .PROJECTS {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .PROJECTS .fckng_card {
+  width: 462.96px;
+  height: 347.73px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+}
 section h1 {
-  color: #E4CFCF;
+  color: #e4cfcf;
   text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
   font-family: "Roboto";
   font-style: normal;
@@ -69,38 +92,68 @@ section h1 {
   font-family: Syncopate;
   text-align: center;
   padding-top: 26px;
-  margin-bottom: 60px;
 }
-section div {
-  color: #ffffff;
-  margin-left: 28px;
-}
-section div img {
-  width: 311px;
-  height: 192px;
-}
-section div:nth-last-of-type(2) {
+section > div {
   margin-bottom: 55px;
 }
-section div:nth-last-of-type(1) {
-  margin-bottom: 50px;
+section .desktop_card1,
+section .desktop_card2 {
+  display: none;
 }
-section div h6 {
+section .mobile_card1,
+section .mobile_card2 {
+  color: #ffffff;
+}
+section .mobile_card1 .img-div,
+section .mobile_card2 .img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
+  border: 2px solid rgba(29, 28, 28, 0.33);
+  border-radius: 11px;
+  width: 312px;
+  height: 187px;
+  padding: 20px 26px;
+}
+section .mobile_card1 .img-div .card1,
+section .mobile_card2 .img-div .card1 {
+  width: 290px;
+  height: 180.75px;
+}
+section .mobile_card1 .img-div .card2,
+section .mobile_card2 .img-div .card2 {
+  width: 269px;
+  height: 154.77px;
+}
+section .mobile_card1 .text,
+section .mobile_card2 .text {
+  padding-right: 115px;
+  display: flex;
+  justify-content: center;
+}
+section .mobile_card1 .text h6,
+section .mobile_card2 .text h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;
+  margin-left: 28px;
+  margin-top: 7px;
 }
-section div p {
+section .mobile_card1 .text p,
+section .mobile_card2 .text p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 15px;
-  padding-top: 13px;
+  padding-top: 7px;
+  margin-left: 28px;
 }
-section div p span {
+section .mobile_card1 .text p span,
+section .mobile_card2 .text p span {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -110,6 +163,7 @@ section div p span {
   padding-left: 16px;
 }
 section button {
+  display: block;
   width: 184px;
   height: 64px;
   font-family: "Roboto";
@@ -118,9 +172,97 @@ section button {
   font-size: 17px;
   line-height: 20px;
   color: #ffffff;
-  background: #D80808;
+  background: #d80808;
   border-radius: 27px;
   border: none;
-  margin-left: 92px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
+}
+
+@media (min-width: 992px) {
+  .projects {
+    height: 1236px;
+    background-size: cover;
+  }
+  .projects h1 {
+    color: #e4cfcf;
+    text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 59px;
+    font-family: Syncopate;
+    text-align: left;
+    padding-top: 38px;
+    margin-bottom: 83px;
+    margin-left: 78px;
+  }
+  .projects .PROJECTS {
+    display: flex;
+    width: 1130.33px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .projects .PROJECTS .desktop_card1,
+  .projects .PROJECTS .desktop_card2 {
+    display: block;
+  }
+  .projects .PROJECTS .fckng_card {
+    width: 462.96px;
+    height: 347.73px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+  }
+  .projects .PROJECTS .fckng_card > div {
+    width: 445.92px;
+    height: 286.48px;
+    background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
+    border: 2px solid rgba(29, 28, 28, 0.33);
+    border-radius: 11px;
+    padding: 30px 36px;
+  }
+  .projects .PROJECTS .fckng_card > div img {
+    width: 372.77px;
+    height: 228.2px;
+  }
+  .projects .PROJECTS .text {
+    color: #ffffff;
+  }
+  .projects .PROJECTS .text h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 28px;
+    margin-top: 7px;
+  }
+  .projects .PROJECTS .text p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: px;
+    margin-left: 28px;
+    margin-bottom: 83px;
+  }
+  .projects .PROJECTS .text p span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    font-family: Rubik;
+    padding-left: 16px;
+  }
 }

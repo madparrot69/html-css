@@ -1,0 +1,92 @@
+@media (min-width: 992px) {
+  .projects {
+    height: 1236px;
+
+    background-size: cover;
+
+    
+
+    h1 {
+      color: #e4cfcf;
+      text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+
+      @include textStyle(700, 57px, 59px);
+      font-family: Syncopate;
+
+      text-align: left;
+
+      padding-top: 38px;
+
+      margin-bottom: 83px;
+      margin-left: 78px;
+    }
+    .PROJECTS {
+      display: flex;
+      width: 1130.33px;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+
+      .desktop_card1,
+      .desktop_card2 {
+        display: block;
+
+        
+        
+      }
+
+      .fckng_card {
+        width: 462.96px;
+        height: 347.73px;
+
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+
+        position: relative;
+
+
+        & > div {
+          width: 445.92px;
+          height: 286.48px;
+
+          background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
+          border: 2px solid rgba(29, 28, 28, 0.33);
+          border-radius: 11px;
+
+          padding: 30px 36px;
+
+          img {
+            width: 372.77px;
+            height: 228.2px;
+          }
+        }
+      }
+      .text{
+        color: #ffffff;
+        h6 {
+          @include textStyle(900, 18px, 21px);
+          margin-left: 28px;
+          margin-top: 7px;
+        }
+
+        p {
+          @include textStyle(400, 16px, 19px);
+          padding-top: px;
+          margin-left: 28px;
+          margin-bottom: 83px;
+
+          span {
+            @include textStyle(500, 20px, 15px);
+            font-family: Rubik;
+            padding-left: 16px;
+          }
+        }
+      }
+    }
+  }
+}

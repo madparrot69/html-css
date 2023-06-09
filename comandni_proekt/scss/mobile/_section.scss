@@ -1,66 +1,119 @@
 section {
-    background-image: url(/img/mobile/bg-section.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-    padding-bottom: 127px;
-    
-    h1{
-        color: #E4CFCF;
-        text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
+  background-image: url(/img/mobile/bg-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 127px;
+  
 
-        @include textStyle (700, 33px, 34px);
-        font-family: Syncopate ;
-        text-align: center;
-        padding-top: 26px;
-        margin-bottom: 60px;
+  .PROJECTS {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+    .fckng_card {
+      width: 462.96px;
+      height: 347.73px;
+
+      display: flex;
+      justify-content: end;
+      flex-direction: column;
+      align-items: center;
+      color: #ffffff;
+
+      position: relative;
     }
-    
-    div{
-        color: #ffffff;
+  }
+  h1 {
+    color: #e4cfcf;
+    text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+
+    @include textStyle(700, 33px, 34px);
+    font-family: Syncopate;
+    text-align: center;
+    padding-top: 26px;
+    // margin-bottom: 60px;
+  }
+  & > div {
+    margin-bottom: 55px;
+  }
+  .desktop_card1,
+  .desktop_card2 {
+    display: none;
+  }
+  .mobile_card1,
+  .mobile_card2 {
+    .img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
+      border: 2px solid rgba(29, 28, 28, 0.33);
+      border-radius: 11px;
+
+      width: 312px;
+      height: 187px;
+
+      padding: 20px 26px;
+
+      .card1 {
+        width: 290px;
+        height: 180.75px;
+      }
+
+      .card2 {
+        width: 269px;
+        height: 154.77px;
+      }
+    }
+    color: #ffffff;
+    // margin-left: auto;
+    // margin-right: auto;
+    .text {
+        padding-right:115px ;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+      h6 {
+        @include textStyle(900, 14px, 16px);
         margin-left: 28px;
-        img{
-            width: 311px;
-            height: 192px;        
-        }
-        &:nth-last-of-type(2){
-            margin-bottom: 55px;
-        }
-        
-        &:nth-last-of-type(1){
-            margin-bottom: 50px;
-        }
-        
-        h6{
-            @include textStyle (900, 14px, 16px);
-            }
-        
-        p{
-            @include textStyle (400, 13px, 15px); 
-            padding-top: 13px;
-            span{
-            @include textStyle (500, 20px, 15px);
-            font-family: Rubik;
-            padding-left:16px;
-            
-        }
-        }
+        margin-top: 7px;
+      }
 
+      p {
+        @include textStyle(400, 13px, 15px);
+        padding-top: 7px;
+        margin-left: 28px;
+
+        span {
+          @include textStyle(500, 20px, 15px);
+          font-family: Rubik;
+          padding-left: 16px;
+        }
+      }
     }
-   button{
+  }
+  button {
+    display: block;
+
     width: 184px;
     height: 64px;
-    
 
-
-    @include textStyle (900, 17px, 20px);
+    @include textStyle(900, 17px, 20px);
     color: #ffffff;
 
-    background: #D80808;
+    background: #d80808;
     border-radius: 27px;
     border: none;
-    
-    margin-left: 92px;
-    padding:0;
-    
-   }     
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
 }

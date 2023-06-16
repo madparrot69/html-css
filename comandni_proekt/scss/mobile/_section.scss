@@ -1,8 +1,8 @@
 section {
-  background-image: url(/img/mobile/bg-section.png);
+  background-image: url(/img/desktop/dBg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 127px;
+  padding-bottom: 130px;
   
 
   .PROJECTS {
@@ -55,6 +55,9 @@ section {
       border: 2px solid rgba(29, 28, 28, 0.33);
       border-radius: 11px;
 
+      box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.16);
+
+
       width: 312px;
       height: 187px;
 
@@ -74,22 +77,22 @@ section {
     // margin-left: auto;
     // margin-right: auto;
     .text {
-        padding-right:115px ;
-        display: flex;
-        justify-content: center;
+        width: 100%;      
         
         
         
       h6 {
         @include textStyle(900, 14px, 16px);
-        margin-left: 28px;
         margin-top: 7px;
+        padding-left: 80px;
+
       }
 
       p {
         @include textStyle(400, 13px, 15px);
         padding-top: 7px;
-        margin-left: 28px;
+        padding-left: 80px;
+
 
         span {
           @include textStyle(500, 20px, 15px);

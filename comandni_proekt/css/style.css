@@ -57,10 +57,10 @@ table {
 }
 
 section {
-  background-image: url(/img/mobile/bg-section.png);
+  background-image: url(/img/desktop/dBg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 127px;
+  padding-bottom: 130px;
 }
 section .PROJECTS {
   display: flex;
@@ -112,6 +112,7 @@ section .mobile_card2 .img-div {
   background: linear-gradient(180deg, #e30707 0%, #6a1212 73.1%);
   border: 2px solid rgba(29, 28, 28, 0.33);
   border-radius: 11px;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.16);
   width: 312px;
   height: 187px;
   padding: 20px 26px;
@@ -128,9 +129,7 @@ section .mobile_card2 .img-div .card2 {
 }
 section .mobile_card1 .text,
 section .mobile_card2 .text {
-  padding-right: 115px;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 section .mobile_card1 .text h6,
 section .mobile_card2 .text h6 {
@@ -139,8 +138,8 @@ section .mobile_card2 .text h6 {
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;
-  margin-left: 28px;
   margin-top: 7px;
+  padding-left: 80px;
 }
 section .mobile_card1 .text p,
 section .mobile_card2 .text p {
@@ -150,7 +149,7 @@ section .mobile_card2 .text p {
   font-size: 13px;
   line-height: 15px;
   padding-top: 7px;
-  margin-left: 28px;
+  padding-left: 80px;
 }
 section .mobile_card1 .text p span,
 section .mobile_card2 .text p span {
@@ -182,8 +181,8 @@ section button {
 
 @media (min-width: 992px) {
   .projects {
-    height: 1236px;
     background-size: cover;
+    padding-bottom: 500px;
   }
   .projects h1 {
     color: #e4cfcf;
@@ -229,6 +228,8 @@ section button {
     border: 2px solid rgba(29, 28, 28, 0.33);
     border-radius: 11px;
     padding: 30px 36px;
+    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 106px 9px rgba(255, 255, 255, 0.1);
   }
   .projects .PROJECTS .fckng_card > div img {
     width: 372.77px;
@@ -243,8 +244,8 @@ section button {
     font-weight: 900;
     font-size: 18px;
     line-height: 21px;
-    margin-left: 28px;
     margin-top: 7px;
+    padding-left: 10px;
   }
   .projects .PROJECTS .text p {
     font-family: "Roboto";
@@ -252,9 +253,9 @@ section button {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    padding-top: px;
-    margin-left: 28px;
+    padding-top: 7px;
     margin-bottom: 83px;
+    padding-left: 10px;
   }
   .projects .PROJECTS .text p span {
     font-family: "Roboto";

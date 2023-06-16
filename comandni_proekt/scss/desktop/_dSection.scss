@@ -1,9 +1,10 @@
 @media (min-width: 992px) {
   .projects {
-    height: 1236px;
+    // height: 1236px;
 
     background-size: cover;
 
+    padding-bottom: 500px;
     
 
     h1 {
@@ -48,6 +49,8 @@
         color: #ffffff;
 
         position: relative;
+        
+        
 
 
         & > div {
@@ -60,6 +63,11 @@
 
           padding: 30px 36px;
 
+          box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.16);
+          box-shadow: 0px 0px 106px 9px rgba(255,255,255,0.1);
+          
+
+
           img {
             width: 372.77px;
             height: 228.2px;
@@ -70,15 +78,16 @@
         color: #ffffff;
         h6 {
           @include textStyle(900, 18px, 21px);
-          margin-left: 28px;
           margin-top: 7px;
-        }
+          padding-left: 10px;
+        } 
 
         p {
           @include textStyle(400, 16px, 19px);
-          padding-top: px;
-          margin-left: 28px;
+          padding-top: 7px;
           margin-bottom: 83px;
+          padding-left: 10px;
+
 
           span {
             @include textStyle(500, 20px, 15px);

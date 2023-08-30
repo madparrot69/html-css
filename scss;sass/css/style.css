@@ -1,0 +1,25 @@
+.box1 {
+  background-color: yellow;
+  height: 150px;
+}
+.box1 h5 {
+  font-size: 25px;
+  background-color: black;
+  color: red;
+}
+.box1 h5:hover {
+  background-color: mediumspringgreen;
+}
+.box1 h5 span {
+  color: blue;
+}
+.box1 p {
+  color: darkgreen;
+  font-size: 20px;
+}
+.box1 p:hover {
+  background-color: blueviolet;
+}
+.box1:hover {
+  background-color: gray;
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 822px;
+  background-image: url(/img/MyTasck-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

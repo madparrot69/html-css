@@ -1,0 +1,56 @@
+h1::before{
+    content: ">>";
+    color: red;
+    background-color: blue;
+}
+ p::after{
+    content: ">>";
+    background-color: blue;
+ }
+
+ p::first-letter{
+    font: size 75px;
+ }
+
+ p::first-line{
+    color: red ;
+ }
+ p::first-letter{
+    font-size:75px;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    color: red;
+    background-color: yellow; 
+ }
+
+
+html{
+
+}
+body{
+    font-size: 32px;
+}
+
+.one{
+    font-size: 0.75em;
+}
+
+.two{
+   font-size: 1.25em; 
+}
+
+
+
+
+body{
+    background-image:url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg);
+    background-size: 250px;
+    background-repeat: repeat ;
+    background-color: yellow;
+
+}

@@ -1,0 +1,205 @@
+// .MyTask{
+//     height: 822px;
+//     background-image: url(/img/MyTasck-bg.png);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     h1{
+//         @include textStyle(700, 32px, 33px);
+//         font-family: 'Syncopate';
+
+//         color: #E4CFCF;
+//         text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
+
+//         text-align: center;
+
+//         padding-top: 28px;
+//         margin-bottom: 25px;
+
+        
+               
+//     }
+
+//     .one{
+
+//         width: 301.06px;
+//         height: 147.37px;      
+//         // background: rgba(175, 37, 37, 0.63);
+//         // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//         // transform: matrix(0.92, -0.4, 0.46, 0.89, 0, 0);
+
+//         background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
+//         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+             
+
+//         h1{
+//             @include textStyle(700, 182px, 211px);
+//             font-family: 'Sen';
+            
+//             color: #1E0202;
+//             text-shadow: 2px 1px 0px #90070750;
+//         }
+
+//         p{
+//             @include textStyle(700, 15px, 18px);
+//             color: #000000;
+//         }
+//     }
+
+//     .two{
+//         h1{
+//             font-family: 'Hind Siliguri';
+//             // @include textStyle(700, 180px, 217px);
+//             color: #F0C9C9;
+           
+
+//             border: 3px solid rgba(172, 137, 137, 0.34);  
+//             text-shadow: 2px 0px 0px rgba(172,137,137,0.34);        
+//         }
+        
+//         h3{
+//             color: #FFF9F9;
+//             @include textStyle(700, 15px, 18px);
+//         }
+
+//         p{
+//             @include textStyle(400, 12px, 14px);
+//             color: #FFFFFF;
+
+//         }
+//     }
+
+//     .three{
+//         h1{
+//             font-family: 'Sen';
+//             @include textStyle(700, 180px, 217px); 
+//             color: #FB0909;
+
+//             border: 3px solid rgba(81, 3, 3, 0.44);           
+//         }
+//     }
+// }
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+main{
+    height: 822px;
+
+    padding-bottom: 500px;
+    
+    background-image: url(/img/MyTasck-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .mt{
+        color: #E4CFCF;
+        text-shadow: 2px 1px 0px rgba(226,13,13,0.5);
+        @include textStyle (700, 33px, 34px);
+        font-family: Syncopate ;
+        text-align: center;
+
+        padding-top: 45px;
+    }
+
+    .one{  
+    
+    
+    
+        h1{
+            @include textStyle (700, 128px, 211px);
+            
+            font-family: 'Trebuchet MS', sans-serif;
+            color: #1E0202;
+            text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+            
+            position: absolute;
+            left: 0.1px;
+            top: 90px;
+        }
+        .one-p{
+            width: 107.61px;
+            height: 199.04px;
+            
+            background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            
+            
+
+            p{
+                @include textStyle (700, 15px, 18px); 
+                color: #000000;
+            }
+
+        
+        }
+    }
+    .two{
+        h1{
+            @include textStyle (700, 180px, 217px);
+            
+            font-family: Sen;
+            color:#F0C9C9;
+
+            text-shadow: 2px 1px 0px rgb(172, 137, 137, 0.34);
+
+            position: absolute;
+
+            left: 22px;
+            top: 319px;
+        }
+        .two-p{
+            width: 303.73px;
+            height: 212.25px;  
+            
+            background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        
+            h3{
+                @include textStyle (700, 15px, 18px); 
+                color: #FFF9F9; 
+            }
+    
+            p{
+                @include textStyle (400, 12px, 14px);
+                color: #FFFFFF;
+    
+            }
+        }   
+    }
+    .three{
+        h1{
+            @include textStyle (700, 180px, 217px);
+            
+            font-family: Sen;
+            color:#FB0909;
+
+            text-shadow: 2px 1px 0px #51030370;
+
+            position: absolute;
+
+            left: 33px;
+            top: 510px;
+        }
+        .three-p{
+            width: 275.57px;
+            height: 193.38px;
+            
+            background: linear-gradient(180.08deg, #F0C9C9 37.32%, #430A0A 99.93%);            
+            box-shadow: 0px 4px 4px rgb(112, 11, 11, 0.25); 
+        
+            h3{
+                @include textStyle (700, 12px, 14px); 
+                color: #000000; 
+            }
+    
+            p{
+                @include textStyle (400, 8px, 9px);
+                color: #000000;
+    
+            }
+        }   
+    }
+    
+}

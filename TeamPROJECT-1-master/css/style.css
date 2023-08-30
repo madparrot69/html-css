@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Sen&display=swap");
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 822px;
+  padding-bottom: 500px;
+  background-image: url(/img/MyTasck-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .mt {
+  color: #E4CFCF;
+  text-shadow: 2px 1px 0px rgba(226, 13, 13, 0.5);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 34px;
+  font-family: Syncopate;
+  text-align: center;
+  padding-top: 45px;
+}
+main .one h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 211px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #1E0202;
+  text-shadow: 2px 1px 0px rgba(144, 7, 7, 0.38);
+  position: absolute;
+  left: 0.1px;
+  top: 90px;
+}
+main .one .one-p {
+  width: 107.61px;
+  height: 199.04px;
+  background: linear-gradient(165.55deg, #DAAFAF 16.79%, #E60000 52.79%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .one .one-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+main .two h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 217px;
+  font-family: Sen;
+  color: #F0C9C9;
+  text-shadow: 2px 1px 0px rgba(172, 137, 137, 0.34);
+  position: absolute;
+  left: 22px;
+  top: 319px;
+}
+main .two .two-p {
+  width: 303.73px;
+  height: 212.25px;
+  background: linear-gradient(165.31deg, #1F0101 47.88%, rgba(136, 101, 101, 0.26) 90.86%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .two .two-p h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFF9F9;
+}
+main .two .two-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+main .three h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 217px;
+  font-family: Sen;
+  color: #FB0909;
+  text-shadow: 2px 1px 0px rgba(81, 3, 3, 0.4392156863);
+  position: absolute;
+  left: 33px;
+  top: 510px;
+}
+main .three .three-p {
+  width: 275.57px;
+  height: 193.38px;
+  background: linear-gradient(180.08deg, #F0C9C9 37.32%, #430A0A 99.93%);
+  box-shadow: 0px 4px 4px rgba(112, 11, 11, 0.25);
+}
+main .three .three-p h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+main .three .three-p p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
+}

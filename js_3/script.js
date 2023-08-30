@@ -25,8 +25,8 @@ console.log(fullName);
 
 // 4
 
-let userName = ` Khrystyna`;
+let userName = `Khrystyna`;
 
 let payment = 60;
 
-alert(`thank you,` + userName +`! you need to pay `+ payment + ` UAH.`);
+alert(`thank you, ${userName}! you need to pay ${payment} UAH.`);

@@ -18,8 +18,8 @@ let m = `my`;
 let n = `name`;
 let i = `is`;
 
-let fullName = m +" "+ n +" "+ i;
-fullName += ` Victor`;
+let fullName = `${m} ${n} ${i} `;
+fullName += `Victor`;
 
 console.log(fullName);
 
